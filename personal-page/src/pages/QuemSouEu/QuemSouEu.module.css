@@ -1,0 +1,31 @@
+.mainDiv{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+.mainDiv img{
+    width: 30%;
+    height: 70vh;
+    padding-left: 40px;
+}
+
+.msgCont {
+    padding: 0px;
+    margin: 0px;
+    height: 70vh;
+    display: grid;
+    justify-content: space-around;
+    align-self: center;
+    width: 70%;
+}
+
+.socialLinks{
+    list-style: none;
+    background-color: pink;
+}
+
+.socialLinks li a img{
+    height: 20px;
+}

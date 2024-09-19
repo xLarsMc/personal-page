@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <nav className={styles.nav}>
         <ul className={styles.list}>
-            <li><NavLink to='/' className={({isActive}) => (isActive ? styles.active : "")}><span> Página Inicial</span></NavLink></li>
+            <li><NavLink to='/#home'><span>Leandro Dev</span></NavLink></li>
+            <li><NavLink to='/#QuemSouEu'><span>Quem Sou Eu?</span></NavLink></li>
+            <li><span>Bem-vindo</span></li>
         </ul>
     </nav>
   )
