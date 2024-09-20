@@ -12,20 +12,55 @@
 }
 
 .msgCont {
-    padding: 0px;
+    padding: 0px 0px 0px 0px;
     margin: 0px;
     height: 70vh;
     display: grid;
-    justify-content: space-around;
-    align-self: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
     width: 70%;
 }
 
-.socialLinks{
-    list-style: none;
-    background-color: pink;
+.msgCont h1, h2{
+    height: 3vh;
+    padding-top: 10px;
+    padding-bottom: 0px
 }
 
-.socialLinks li a img{
-    height: 20px;
+.msgCont h1{
+    padding-bottom: 20px;
+}
+
+.h1h2Height{
+    padding: 0px;
+    margin: 0px
+}
+
+.list {
+    margin: 0;
+    padding-left: 18px
+}
+
+.list li {
+    align-items: center;
+    padding: 22px 0px 22px 0px
+}
+
+.socialLinks{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+
+.socialLinks ul{
+    justify-content: space-between;
+}
+
+.socialLinks img{
+    padding-left: 0px;
+    padding-right: 15px;
+    height: auto;
+    width: auto;
 }
