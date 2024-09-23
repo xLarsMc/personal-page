@@ -14,9 +14,9 @@ const QuemSouEu = () => {
           <li>Inglês fluente - Autodidata </li>
         </ul>
         <ul className={styles.socialLinks}>
-          <li> <a href="https://github.com/xLarsMc" target="blank"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github&logoColor=white" alt="LinkedIn logo" /></a></li>
+          <li> <a href="https://github.com/xLarsMc" target="blank"> <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub logo" /></a></li>
           <li> <a href="https://www.linkedin.com/in/leandro-neves-lhoneves/" target="blank"> <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn logo" /></a></li>
-          <li> <a href="https://www.instagram.com/le.henrique_/" target="blank"> <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="LinkedIn logo" /></a></li>
+          <li> <a href="https://www.instagram.com/le.henrique_/" target="blank"> <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram logo" /></a></li>
         </ul>
        </div>
     </div>
