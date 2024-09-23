@@ -1,0 +1,60 @@
+.mainDiv{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainDiv img{
+    width: 30%;
+    height: 70vh;
+    padding-left: 40px;
+    padding-right: 70px;
+}
+
+.msgCont {
+    padding: auto;
+    margin: 0px;
+    height: 70vh;
+    display: grid;
+    justify-content: center;
+    width: 70%;
+    color: rgb(223, 191, 130);
+    word-wrap: break-word;
+}
+
+.msgCont h2{
+    height: 3vh;
+    padding-right: 10px;
+    padding-bottom: 38px;
+}
+
+.list {
+    margin: 0;
+    padding-left: 18px
+}
+
+.list li {
+    align-items: center;
+    padding: 10px 20px 22px 0px;
+    font-size: 19px;
+}
+
+.socialLinks{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+
+.socialLinks ul{
+    justify-content: space-between;
+}
+
+.socialLinks img{
+    padding-left: 0px;
+    padding-right: 15px;
+    height: auto;
+    width: auto;
+}

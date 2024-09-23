@@ -1,0 +1,32 @@
+.mainDiv{
+    color: #dfbf82;
+    height: 40vh;
+    padding: 0;
+    margin: 0;
+}
+
+.mainDiv h1{
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    color: whitesmoke;
+}
+
+.contactsDiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 80px;
+}
+
+.telefone{
+    margin-right: 75px;
+}
+
+.contactsDiv h2, span{
+    margin: 7px;
+}
+
+.contactsDiv h2{
+    color: whitesmoke;
+}
