@@ -1,0 +1,80 @@
+.mainDiv{
+    height: 100vh;
+    padding-top: 12vh;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    color: white;
+}
+.title h1, h3{
+    margin: 7px;
+}
+
+.title h3{
+    padding-bottom: 20px;
+}
+
+.projectsDiv{
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectsDiv img{
+    position: relative;
+    height: 60vh;
+    width: 60vh;
+}
+
+.img1, .img2, .img3{
+    position: relative;
+}
+
+.img1img{
+    position: relative;
+    width: 100%;
+}
+
+.overlay1, .overlay2, .overlay3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60vh;
+    background-color: rgb(0, 0, 0);
+    color: rgb(127, 124, 124);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    border: 2px solid rgb(208, 144, 25)
+}
+
+.overlay1 h1, .overlay2 h1, .overlay3 h1{
+    margin: 60px 0 0 0;
+    padding: 0;
+}
+
+
+.overlay1 span, .overlay2 span, .overlay3 span{
+    font-size: 20px;
+    margin: 40px;
+}
+
+.img1:hover .overlay1, .img2:hover .overlay2, .img3:hover .overlay3{
+    opacity: 1;
+}
+
+.img1:hover .img1img, .img2:hover img, .img3:hover img{
+    opacity: 0;
+}

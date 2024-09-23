@@ -3,16 +3,18 @@
     height: 100vh;
     width: 100%;
     align-items: center;
+    justify-content: center;
 }
 
 .mainDiv img{
     width: 30%;
     height: 70vh;
     padding-left: 40px;
+    padding-right: 70px;
 }
 
 .msgCont {
-    padding: 0px 0px 0px 0px;
+    padding: 50px;
     margin: 0px;
     height: 70vh;
     display: grid;
@@ -20,21 +22,18 @@
     padding: 0;
     margin: 0;
     width: 70%;
+    color: rgb(223, 191, 130);
+    word-wrap: break-word;
 }
 
 .msgCont h1, h2{
     height: 3vh;
-    padding-top: 10px;
-    padding-bottom: 0px
+    padding-right: 10px;
 }
 
 .msgCont h1{
     padding-bottom: 20px;
-}
-
-.h1h2Height{
-    padding: 0px;
-    margin: 0px
+    padding-top: 10px;
 }
 
 .list {
@@ -44,7 +43,8 @@
 
 .list li {
     align-items: center;
-    padding: 22px 0px 22px 0px
+    padding: 22px 20px 22px 0px;
+    font-size: 19px;
 }
 
 .socialLinks{
