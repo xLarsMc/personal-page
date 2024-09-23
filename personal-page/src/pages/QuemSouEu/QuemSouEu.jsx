@@ -9,6 +9,8 @@ const QuemSouEu = () => {
         <ul className={styles.list}>
           <li>Formando em Análise e Desenvolvimento de Sistemas pela Universidade Tecnológica Federal do Paraná</li>
           <li>Foco em Programação FullStack</li>
+          <li>Front-End: React Native + CSS</li>
+          <li>Back-End: Node.Js + MongoDB</li>
           <li>Inglês fluente - Autodidata </li>
         </ul>
         <ul className={styles.socialLinks}>

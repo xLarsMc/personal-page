@@ -1,14 +1,15 @@
 import './App.css'
 import {BrowserRouter, Routes, Route, useLocation} from "react-router-dom"
 import { Helmet } from 'react-helmet-async'
+import { useEffect } from 'react'
 
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 
 import Home from './pages/Home/Home'
 import QuemSouEu from './pages/QuemSouEu/QuemSouEu'
-import { useEffect } from 'react'
 import ProjetosPessoais from './pages/Projetos pessoais/ProjetosPessoais'
+import Contato from './pages/Contato/Contato'
 
 function ScrollToSection() {
   const location = useLocation();
@@ -45,6 +46,7 @@ function App() {
               <Home></Home>
               <QuemSouEu></QuemSouEu>
               <ProjetosPessoais></ProjetosPessoais>
+              <Contato></Contato>
               </>
               }></Route>
           </Routes>

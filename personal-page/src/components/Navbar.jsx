@@ -23,7 +23,8 @@ const Navbar = () => {
         <ul className={styles.list}>
             <li><NavLink to='/#home' className={styles.navlink}><span>Leandro Dev</span></NavLink></li>
             <li><NavLink to='/#QuemSouEu'className={styles.navlink}><span>Quem Sou Eu?</span></NavLink></li>
-            <li><NavLink to='/#ProjetosPessoais'className={styles.navlink}>Meus Projetos</NavLink></li>
+            <li><NavLink to='/#ProjetosPessoais'className={styles.navlink}>Portfólio</NavLink></li>
+            <li><NavLink to='/#Contato' className={styles.navlink}>Contatos</NavLink></li>
         </ul>
     </nav>
   )

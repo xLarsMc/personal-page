@@ -30,18 +30,13 @@
 }
 
 .projectsDiv img{
-    position: relative;
     height: 60vh;
     width: 60vh;
+    position: relative;
 }
 
 .img1, .img2, .img3{
     position: relative;
-}
-
-.img1img{
-    position: relative;
-    width: 100%;
 }
 
 .overlay1, .overlay2, .overlay3{
