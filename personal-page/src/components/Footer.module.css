@@ -1,5 +1,5 @@
 .mainDiv{
-    padding-top: 10px;
+    padding-top: 1vh;
     background-color: rgb(60, 57, 57);
     color: rgb(255, 255, 255);
     display: flex;
@@ -7,13 +7,13 @@
     margin: 0;
     align-items: center;
     flex-direction: column;
-    gap: 15px;
+    gap: 1.5vh;
     text-align: center;
 }
 
 .mainDiv h1{
     padding: 0;
-    padding-top: 25px;
+    padding-top: 4vh;
     margin: 0;
     color: goldenrod;
 }

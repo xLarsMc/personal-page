@@ -9,24 +9,26 @@
     padding-top: 0px;
     display: flex;
     justify-content: center;
-    padding-bottom: 40px;
+    padding-bottom: 4vh;
     color: whitesmoke;
 }
 
 .contactsDiv{
     display: flex;
     justify-content: space-between;
-    margin: 0px 80px;
+    margin: 0px 10vw;
+    text-align: center;
 }
 
 .telefone{
-    margin-right: 75px;
+    margin-right: 4vw;
 }
 
 .contactsDiv h2, span{
-    margin: 7px;
+    margin: 2vh;
 }
 
 .contactsDiv h2{
     color: whitesmoke;
 }
+

@@ -1,11 +1,11 @@
 .nav {
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: 550;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     transition: .8s;
     height: 12vh;
 }
@@ -24,8 +24,7 @@
 }
 
 .scrolled .list{
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 0px 0.75vw;
     transition: 1s;
 }   
 
@@ -37,12 +36,12 @@
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 2vh 4vw;
     text-decoration: none;
 }
 
 .list li{
-    padding: 10px;
+    padding: 2vh;
     border-radius: 8.5%;
     cursor: pointer;
 }
@@ -55,6 +54,7 @@
 .navlink:hover{
     background-color: rgba(51, 25, 164, 0.399);
     transition: 0.5s;
-    padding: 7px;
+    padding: 0.7vw;
     border-radius: 6%;
 }
+
