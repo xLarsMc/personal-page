@@ -14,7 +14,6 @@
 }
 
 .msgCont {
-    padding: auto;
     margin: 0px;
     height: 70vh;
     display: grid;
@@ -59,4 +58,14 @@
     padding-right: 3vw;
     height: auto;
     width: auto;
+}
+@media (max-width: 768px) {
+    .msgCont h2{
+        font-size: 20px;
+    }
+    .list li{
+        padding: 10px 0px;
+        font-size: 15px;
+        margin: 0;
+    }
 }

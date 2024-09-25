@@ -80,3 +80,27 @@
     max-width: 7.7vw;
 }
 
+@media (max-width: 768px) {
+    .mainDiv{
+        height: 270vh;
+    }
+    .projectsDiv{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .projectsDiv img{
+        padding-bottom: 5vh;
+        margin: 0;
+        width: 70vw;
+        height: 70vh;
+    }
+    .overlay1, .overlay2, .overlay3{
+        width: 70vw;
+        height: 70vh;
+    }
+    .badges{
+        max-width: 20vw;
+        max-height: 10vh;
+    }
+}

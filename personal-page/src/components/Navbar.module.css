@@ -6,30 +6,34 @@
     font-weight: 550;
     position: fixed;
     width: 100vw;
-    transition: .8s;
     height: 12vh;
+    background-color: transparent;
+    transition: background-color 0.8s, color 0.8s;
 }
 
 .scrolled {
     background-color: rgb(186, 131, 29);
-    transition: .8s;
     color: rgb(50, 49, 49);
     align-items: center;
     position: fixed;
     z-index: 100;
+    height: 12vh;
 }
 
-.scrolled .navlink{
+.scrolled .navlink {
     color: rgb(50, 49, 49);
 }
 
-.scrolled .list{
+.scrolled .list {
     margin: 0px 0.75vw;
-    transition: 1s;
-}   
+    transition: color 1s;
+}
+
+.menu {
+    display: none;
+}
 
 .list {
-    transition: 1s;
     margin: 0;
     padding: 0;
     display: flex;
@@ -40,21 +44,95 @@
     text-decoration: none;
 }
 
-.list li{
+.list li {
     padding: 2vh;
     border-radius: 8.5%;
     cursor: pointer;
 }
 
-.navlink{
+.navlink {
     color: rgb(169, 161, 161);
     transition: 0.5s;
 }
 
-.navlink:hover{
+.navlink:hover {
     background-color: rgba(51, 25, 164, 0.399);
     transition: 0.5s;
     padding: 0.7vw;
     border-radius: 6%;
 }
 
+.hamburguer {
+    display: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .list {
+        display: none;
+    }
+
+    .scrolled{
+        background-color: transparent;
+    }
+
+    .scrolled .navlink {
+        color: white;
+    }
+    
+    .scrolled .open {
+        padding: 0;
+        margin: 0;
+        height: 90vh;
+        align-self: center;
+    }
+
+    .scrolled .menu {
+        height: 10vh;
+    }
+
+    .open {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+        background-color: rgb(186, 131, 29);
+        align-items: center;
+        height: 90vh;
+        padding: 0;
+        margin: 0;
+    }
+
+    .open li {
+        padding: 0;
+    }
+
+    .hamburguer {
+        display: block;
+        padding: 1vh 4vw;
+    }
+
+    .navlink {
+        padding: 1vh;
+        color: #fff;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 50px;
+        height: 10vh;
+        background-color: rgb(186, 131, 29);
+    }
+
+    .hamburguer:hover {
+        background-color: rgba(51, 25, 164, 0.399);
+        transition: 0.5s;
+        padding: auto;
+        border-radius: 6%;
+        cursor: pointer;
+    }
+}
